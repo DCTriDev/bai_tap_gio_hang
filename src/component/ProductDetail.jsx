@@ -10,25 +10,25 @@ class ProductDetail extends Component {
                     <p>Tên Sản Phẩm: <b>{tenSP}</b></p>
                 </td>
                 <td className="col-9">
-                    <tr className="d-flex justify-content-center">
+                    <tr className="d-flex justify-content-start">
                         <p>Màn hình: {manHinh}</p>
                     </tr>
-                    <tr className="d-flex justify-content-center">
+                    <tr className="d-flex justify-content-start">
                         <p>Hệ điều hành: {heDieuHanh}</p>
                     </tr>
-                    <tr className="d-flex justify-content-center">
+                    <tr className="d-flex justify-content-start">
                         <p>Camera trước: {cameraTruoc}</p>
                     </tr>
-                    <tr className="d-flex justify-content-center">
+                    <tr className="d-flex justify-content-start">
                         <p>Camera sau: {cameraSau}</p>
                     </tr>
-                    <tr className="d-flex justify-content-center">
+                    <tr className="d-flex justify-content-start">
                         <p>RAM: {ram}</p>
                     </tr>
-                    <tr className="d-flex justify-content-center">
+                    <tr className="d-flex justify-content-start">
                         <p>ROM: {rom}</p>
                     </tr>
-                    <tr className="d-flex justify-content-center">
+                    <tr className="d-flex justify-content-start">
                         <p>Giá bán: {giaBan}</p>
                     </tr>
                 </td>
