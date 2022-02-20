@@ -6,7 +6,7 @@ class PhoneDetail extends Component {
         return (
             <div className="card" style={{width: "100%", height: "100%"}}>
                 <img className="card-img-top" src={hinhAnh} alt="Card image cap" style={{height: "400px"}}/>
-                <div className="card-body">
+                <div className="card-body text-center">
                     <h5 className="card-title">{tenSP}</h5>
                     <p className="card-text">Lorem ipsum dolor.</p>
                     <button type="button" className="btn btn-primary" onClick={() => {
